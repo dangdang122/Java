@@ -37,7 +37,7 @@ public class CafeKiosk {
         }
 
         cart.showCart();
-        System.out.println("오늘 주문한 총 메뉴 수: " + Menu.count + "개");
+        System.out.println("오늘 주문한 총 메뉴 수: " + cart.getItemCount() + "개");
         sc.close();
     }
 }
