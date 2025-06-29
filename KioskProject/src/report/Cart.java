@@ -11,7 +11,9 @@ public class Cart {
             System.out.println("장바구니가 가득 찼습니다.");
         }
     }
-
+    public int getItemCount() {
+        return index;
+    }
     public void showCart() {
         System.out.println("=== 장바구니 목록 ===");
         if (index == 0) {
